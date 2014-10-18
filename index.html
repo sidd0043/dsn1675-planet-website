@@ -1,108 +1,123 @@
 <!DOCTYPE html>
 <html lang="en-ca">
-<head>
-    <meta charset="utf-8">
-    <title>Venus</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link href="css/main.css" rel="stylesheet">
-</head>
+    <head>
+        <meta charset="utf-8">
+        <title>Venus</title>
+        <meta name="viewport" content="width=device,initial-scale=1">
+        <link href="css/grids.css" rel="stylesheet">
+        <link href="css/typography.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1 class="title peta gutter-half">Venus</h1>
 
-<body>
+            <nav>
+                <ul class="nav mega">
+                    <li class="gutter-half"><a href ="index.html">Planet</a></li>
+                    <li class="gutter-half"><a href ="moon.html">Moon</a></li>
+                    <li class="gutter-half"><a href ="exploration.html">Exploration</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <div class="section-dark">
-        <h1 class=".title .peta">Venus</h1>
-        <nav>
-            <ul class="nav mega">
-                <li><a href='index.html'>Planet</a></li>
-                <li><a href='venus.html'>Moons</a></li>
-                <li><a href='exploration.html'>Exploration</a></li>
-            </ul>
-        </nav> 
-    </div>
-    
-    <div class="tera section-medium island center">
-        <h2 class="push-0">Venus, the second planet in the Solar System.</h2>
-    </div>
-    
-    <div class="grid pad-t"> 
-        <div class="unit gutter unit-l-1-3">
-            <img src="images/venus-real-color.jpg" alt="">
-        </div>
-        
-        <div class="unit gutter unit-l-2-3">
-            <h3 class="peta">Venus</h3>
-            
-            <p>Venus is the second planet from the Sun, orbiting it every 224.7 Earth days.Venus is a terrestrial planet and is sometimes called Earth's "sister planet" because of their similar size, gravity, and bulk composition (Venus is both the closest planet to Earth and the planet closest in size to Earth). However, it has also been shown to be radically different from Earth in other respects.</p>
-        </div>
-    </div> 
-    
-    <div class="grid">
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-3">
-            <img src="images/-venus-globe.jpg" alt="">
-            <figcaption class="gutter-1-2 micro">Global radar view of the surface from Magellan radar imaging between 1990 and 1994.</figcaption>
-        </div>
-        
-        <div class="unit unit-xs-1 unit-s-1-2 unit-m-1-3">
-            <img src="images/impact-craters-on-venus.png" alt="">
-            <figcaption class="gutter-1-2 micro">Impact craters on the surface of Venus.</figcaption>
-        </div>
-        
-        <div class="unit unit-xs-1 unit-s-1-2 unit-m-1-3">
-            <img src="images/maat-mons-on-venus.jpg" alt="">
-            <figcaption class="gutter-1-2 micro">Maat Mons with a vertical exaggeration of 22.5.</figcaption>
-        </div>
-    
-    </div>
-    <div class="grid section-light pad-t">
-        <div class="unit gutter unit-s-1-2">
-            <h3 class="giga">Orbital Characteristics</h3>
-            <dl>
-                <dt class="micro">Aphellion</dt>
-                <dd class="kilo">108 939 000 km</dd>
-                <dt class="micro">Perihelion</dt>
-                <dd class="kilo">107 477 000km</dd>
-                <dt class="micro">Orbital period</dt>
-                <dd class="kilo">224.701 d</dd>
-                <dt class="micro">Average orbital speed</dt>
-                <dd class="kilo">35.02 km/s</dd>
-            </dl>
-        </div>
+        <article>
 
-        <div class="unit gutter unit-s-1-2">
-            <h3 class="giga">Physical Characteristics</h3>
-            <dl>
-                <dt class="micro">Mean radius</dt>
-                <dd class="kilo">6051.+1.0km</dd>
-                <dt class="micro">Mass</dt>
-                <dd class="kilo">4.8676x10 kg</dd>
-                <dt class="micro">Surface gravity</dt>
-                <dd class="kilo">8.87 m/s</dd>
-                <dt class="micro">Axial tilt</dt>
-                <dd class="kilo">177.36</dd>
-            </dl>
-        </div>
-    
-    </div>
-    
+            <div class= "grid pad-bottom">
+                <div class=" border unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1">
+                    <p class="peta push-0 island-half">Venus, the second planet in the Solar System.</p>
+                </div> 
+                <div class= "unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-3">
+                    <img src="images/venus-real-color.jpg" alt="">
+                </div>
+
+                <div class= "unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-2-3">
+                    <h3 class="exa gutter-half">Venus</h3>
+                    <p class="gutter-half">Venus is the second planet from the Sun, orbiting it every 224.7 Earth days.Venus is a terrestrial planet and is sometimes called Earth's "sister planet" because of their similar size, gravity, and bulk composition (Venus is both the closest planet to Earth and the planet closest in size to Earth). However, it has also been shown to be radically different from Earth in other respects.</p>
+                </div>
+
+            </div>
+
+            <div class="grid pad-top figs">
+
+                <div class= "unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-3">
+                    <figure>
+                        <img src="images/-venus-globe.jpg" alt="">
+                        <figcaption class="micro gutter-half">Global radar view of the surface from Magellan radar imaging between 1990 and 1994</figcaption>
+                    </figure>
+                </div>
+                <div class= "unit unit-xs-1 unit-s-1-2 unit-m-1-3 unit-l-1-3">
+                    <figure>
+                        <img src="images/impact-craters-on-venus.png" alt="">
+                        <figcaption class="micro gutter-half">Impact craters on the surface of Venus.</figcaption>
+</figure>
+                </div>
+
+                <div class= "unit unit-xs-1 unit-s-1-2 unit-m-1-3 unit-l-1-3">
+                    <figure>
+                        <img src="images/maat-mons-on-venus.jpg" alt="">
+                        <figcaption class="micro gutter-half">Panorama of Gusev crater, where <em>Spirit</em>rover examined volcanic basalts</figcaption>
+                    </figure>
+                </div>
+
+            </div>
+
+            <div class="grid island characteristics">
+
+                <div class="unit unit-xs-1 unti-s-1 unit-m-1-2 unit-l-1-2">
+                    <h3>Orbital characteristics</h3>
+                    <dl>
+                        <dt class="milli">Aphelion</dt>
+                        <dd class="mega"><data value= "108 939 000">108 939 000km</data></dd>
+
+                        <dt class="milli">Perihelion</dt>
+                        <dd class="mega"><data value= "107 477 000">107 477 000 km</data></dd>
+
+                        <dt class="milli">Orbital period</dt>
+                        <dd class="mega"><data value= "224.701">224.701 d</data></dd>
+
+                        <dt class="milli">Average orbital speed</dt>
+                        <dd class="mega"><data value= "35.02">35.02 km/s</data></dd>
+                    </dl>
+                </div>
+                <div class="unit unit-xs-1 unti-s-1 unit-m-1-2 unit-l-1-2">
+                    <h3>Physical Characteristics</h3>
+                    <dl>
+                        <dt class="milli">Mean Radius</dt>
+                        <dd class="mega"><data value= "6051.+1.0">6051.+1.0 km</data></dd>
+
+                        <dt class="milli">Mass</dt>
+                        <dd class="mega"><data value= "4.8676x10<sup>23</sup">4.8676x10 <sup>23</sup> kg</data></dd>
+
+                        <dt class="milli">Surface Gravity</dt>
+                        <dd class="mega"><data value= "8.87">8.87 m/s</data></dd>
+
+                        <dt class="milli">Axial tilt</dt>
+                        <dd class="mega"><data value= "177.36">177.36</data></dd>
+                    </dl>
+                </div>
+
+            </div>
+
+            <div>
+
+                <footer class="footer grid push-0">
+                    <div class="unit unit-xs-1 unit-s-1 unit-m-1-3 unit-l-1-4">
+                        <p class="copyright micro gutter-half push-0 island-half">© 2014 Venus Planetary Consortium</p>
+                    </div>
+                    <div class="gutter-half unit unit-xs-1 unit-s-1 unit-m-2-3 unit-l-3-4">
+                        <nav>
+                            <ul class="nav-footer milli nav gutter-half">
+                                <li><a href="index.html" >Planet</a></li>
+                                <li><a href="moons.html">Moons</a></li>
+                                <li><a href="exploration.html">Exploration</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </footer>
+            </div>
+
+        </article>
+
     </body>
-    
-    <footer class="section-dark">
-        
-        <div class="grid">
-            
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-3 gutter push-0">
-                <p class="milli push-none">© 2014 Venus Planetary Consortium</p>
-            </div>
-            
-            <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-2-3 gutter push-0">
-                <nav>
-                    <ul class="nav milli gutter-1-2">
-                        <li><a href='index.html'>Planet</a></li>
-                        <li><a href='venus.html'>Moons</a></li>
-                        <li><a href='exploration.html'>Exploration</a></li>
-                    </ul>
-                </nav> 
-            </div>
-        </div>
-    </footer> 
 </html>
