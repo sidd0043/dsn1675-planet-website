@@ -34,9 +34,55 @@
             <h2 class="push-0">Exploration</h2>
         
         </div>
-    
-    </body>
-    
+        
+        <form class="island characteristics" method="post">
+        
+            <div>
+                <label for="name"> Name</label>
+                <input id="name" class="basic">
+            </div>
+        
+            <div>
+                <label for="email"class="pad-t"> E-mail</label>
+                <input type="email"id="email" class="basic">
+            </div>
+            
+            <div>
+                <label for="age" class="pad-t">Age</label>
+                <input type="number" id="age" class="basic">
+            </div>
+            
+            <div class="pad-b">
+                <p class="pad-t form-p">Your level of awesomeness: </p>
+                
+                <span class="radio">
+                    <input type="radio" id="meh" name="level-of-awesomeness">
+                    <label for="meh">Meh...</label>
+                </span>
+                
+                <span class="radio">
+                    <input type="radio" id="pretty-good" name="level-of-awesomeness">
+                    <label for="pretty-good">Pretty good</label>
+                </span>
+                
+                <span class="radio">
+                    <input type="radio" id="super" name="level-of-awesomeness">
+                    <label for="super">Super!</label>
+                </span>
+            </div>
+            
+            <div>
+                <label for="explain">Explain why you deserve to go:</label>
+                <textarea id="explain"></textarea>
+            </div>
+            
+            <div class="center">
+                <button type="submit">Sign Up</button>
+            </div>
+        </form>
+
+
+        
     
     <footer class="footer">
         
@@ -56,5 +102,6 @@
             </div>
         
         </div>
-    </footer> 
+    </footer>
+    </body>
 </html>

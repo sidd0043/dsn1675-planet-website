@@ -211,4 +211,33 @@ a:focus {
     }
 }
 
+label {
+    display: block;
+}
+
+input +label {
+    display: inline-block;
+}
+
+.form-p{
+    font-style: italic;
+}
+
+.basic {
+    padding: .75em;
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    height: 30em;
+}
+
+button {
+    font-size: 1.5em;
+}
+
+.radio {
+    white-space: nowrap;
+}
 
