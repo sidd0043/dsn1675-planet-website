@@ -9,7 +9,6 @@ box-sizing: border-box;
 margin: 0;
 padding: 0;
 
-font: normal 100%/1.5 sans-serif;
 -moz-text-size-adjust: 100%;
 -ms-text-size-adjust: 100%;
 -webkit-text-size-adjust: 100%;
@@ -98,23 +97,23 @@ img {
 }
 
 header {
-    background-color: #ccc;
+    background-color: #FF9933;
     overflow: hidden;
 }
 
 .figs {
-    background-color: #efefef
+    background-color: #996699;
 }
 .characteristics {
-    background-color: #e2e2e2;
+    background-color: #6699CC;
 }
 
 .footer {
-    background-color: #ccc;
+    background-color: #FF9933;
 }
 
 .border {
-    background-color: #e2e2e2;
+    background-color: #996699;
     text-align: center;
 }
 
@@ -167,6 +166,16 @@ a:focus {
     color: #0074D9;
 }
 
+.nav a:hover,
+.nav a:focus,
+.nav a:active,
+.nav .nav-current,
+.nav .nav-current:link,
+.nav .nav-current:visited {
+    background-color: #0074d9;
+    color: #fff;
+}
+
 
 .title {
     text-align: center;
@@ -176,6 +185,39 @@ a:focus {
 .moons {
     background-color: #e2e2e2;
 }
+
+
+label {
+    display: block;
+}
+
+input +label {
+    display: inline-block;
+}
+
+.form-p{
+    font-style: italic;
+}
+
+.basic {
+    padding: .75em;
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    height: 30em;
+}
+
+button {
+    font-size: 1.5em;
+}
+
+.radio {
+    white-space: nowrap;
+}
+
+
 
 @media only screen and (min-width:20em) {
 
@@ -210,34 +252,3 @@ a:focus {
         text-align: left;
     }
 }
-
-label {
-    display: block;
-}
-
-input +label {
-    display: inline-block;
-}
-
-.form-p{
-    font-style: italic;
-}
-
-.basic {
-    padding: .75em;
-    width: 100%;
-}
-
-textarea {
-    width: 100%;
-    height: 30em;
-}
-
-button {
-    font-size: 1.5em;
-}
-
-.radio {
-    white-space: nowrap;
-}
-
